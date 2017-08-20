@@ -1,0 +1,43 @@
+\documentclass{amsbook}
+
+\usepackage{xeCJK}
+
+\input{preamble}
+
+\begin{document}
+
+\frontmatter
+\title[math4cs-history]{Mathematics for Computer Science: A Historical Perspective}
+\author[hengxin]{Hengfeng Wei}
+\address[NJU]{Nanjing University\\
+Nanjing, China}
+\email[]{hfwei@nju.edu.cn}
+\urladdr{http://www.bigoh.net/wiki/index.php/user:Hengfeng-Wei}
+% \thanks{}
+% \subjclass[2000]{Primary 05C38, 15A15; Secondary 05A15, 15A18}
+% \dedicatory{Dedicated to }
+
+\input{chapters/abstract}
+
+\maketitle
+\tableofcontents
+
+\input{chapters/preface}
+
+\mainmatter
+
+\part{集合论}
+\input{chapters/set-theory}
+\input{chapters/axiomatic-set-theory}
+
+\part{数理逻辑}
+\input{chapters/mathematical-logic}
+
+\part{递归论}
+\input{chapters/computability}
+
+\backmatter\appendix
+
+% \input{appendix/}
+
+\end{document}
